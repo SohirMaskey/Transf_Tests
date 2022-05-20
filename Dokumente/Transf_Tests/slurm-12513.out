@@ -1,0 +1,866 @@
+Global seed set to 42
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/torch_geometric/deprecation.py:13: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+Global seed set to 42
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/callback_connector.py:90: LightningDeprecationWarning: Setting `Trainer(progress_bar_refresh_rate=0)` is deprecated in v1.5 and will be removed in v1.7. Please pass `pytorch_lightning.callbacks.progress.TQDMProgressBar` with `refresh_rate` directly to the Trainer's `callbacks` argument instead. Or, to disable the progress bar pass `enable_progress_bar = False` to the Trainer.
+  rank_zero_deprecation(
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:623: UserWarning: Checkpoint directory ../saved_models/GraphLevelChebNet/lightning_logs/version_12513/checkpoints exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/data_loading.py:116: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 28 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/utilities/data.py:59: UserWarning: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 10. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
+  warning_cache.warn(
+Global seed set to 42
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/data_loading.py:116: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 28 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/utilities/data.py:59: UserWarning: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 1. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
+  warning_cache.warn(
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:901: LightningDeprecationWarning: `trainer.test(test_dataloaders)` is deprecated in v1.4 and will be removed in v1.6. Use `trainer.test(dataloaders)` instead.
+  rank_zero_deprecation(
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/data_loading.py:116: UserWarning: The dataloader, test_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 28 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+cuda:0
+0 {'test': 0.7684563994407654, 'train': 0.658108115196228, 'test loss': 0.6453644037246704, 'train_loss': 0.8057296276092529}
+1 {'test': 0.8741610646247864, 'train': 0.8891891837120056, 'test loss': 0.2967071831226349, 'train_loss': 0.2955123782157898}
+2 {'test': 0.7953020334243774, 'train': 0.841891884803772, 'test loss': 0.35279884934425354, 'train_loss': 0.2986350357532501}
+3 {'test': 0.9563758373260498, 'train': 0.9824324250221252, 'test loss': 0.12077058851718903, 'train_loss': 0.14703088998794556}
+4 {'test': 0.9614093899726868, 'train': 0.933783769607544, 'test loss': 0.2055870145559311, 'train_loss': 0.19968630373477936}
+5 {'test': 0.9815436005592346, 'train': 0.9810810685157776, 'test loss': 0.0709012895822525, 'train_loss': 0.05712531507015228}
+6 {'test': 0.9463087320327759, 'train': 0.9851351380348206, 'test loss': 0.13683898746967316, 'train_loss': 0.07184648513793945}
+7 {'test': 0.9328858852386475, 'train': 0.933783769607544, 'test loss': 0.12835048139095306, 'train_loss': 0.17290377616882324}
+8 {'test': 0.9882550239562988, 'train': 0.9729729890823364, 'test loss': 0.10626794397830963, 'train_loss': 0.13304072618484497}
+9 {'test': 0.9932885766029358, 'train': 1.0, 'test loss': 0.05697764456272125, 'train_loss': 0.03572160750627518}
+10 {'test': 1.0, 'train': 1.0, 'test loss': 0.01579824648797512, 'train_loss': 0.02368011698126793}
+11 {'test': 0.9966443181037903, 'train': 0.9972972869873047, 'test loss': 0.11766167730093002, 'train_loss': 0.1292245239019394}
+12 {'test': 0.968120813369751, 'train': 0.9945945739746094, 'test loss': 0.26614320278167725, 'train_loss': 0.284628301858902}
+13 {'test': 0.3305369019508362, 'train': 0.26486486196517944, 'test loss': 1.4505834579467773, 'train_loss': 1.6195127964019775}
+14 {'test': 0.42617449164390564, 'train': 0.29054054617881775, 'test loss': 1.460840106010437, 'train_loss': 1.6614474058151245}
+15 {'test': 0.9563758373260498, 'train': 0.9878378510475159, 'test loss': 0.2716670036315918, 'train_loss': 0.2601500153541565}
+16 {'test': 0.3305369019508362, 'train': 0.3081081211566925, 'test loss': 1.3910367488861084, 'train_loss': 1.5474268198013306}
+17 {'test': 0.3322147727012634, 'train': 0.3094594478607178, 'test loss': 1.3660719394683838, 'train_loss': 1.5334357023239136}
+18 {'test': 0.3372483253479004, 'train': 0.27162161469459534, 'test loss': 1.3828569650650024, 'train_loss': 1.5587437152862549}
+19 {'test': 0.33557048439979553, 'train': 0.27162161469459534, 'test loss': 1.382297158241272, 'train_loss': 1.5621798038482666}
+20 {'test': 0.33557048439979553, 'train': 0.27162161469459534, 'test loss': 1.36625075340271, 'train_loss': 1.5365674495697021}
+21 {'test': 0.3372483253479004, 'train': 0.27162161469459534, 'test loss': 1.3664957284927368, 'train_loss': 1.5362317562103271}
+22 {'test': 0.3372483253479004, 'train': 0.27162161469459534, 'test loss': 1.4141132831573486, 'train_loss': 1.5961053371429443}
+23 {'test': 0.5016778707504272, 'train': 0.35540542006492615, 'test loss': 1.3193001747131348, 'train_loss': 1.5024349689483643}
+24 {'test': 0.33557048439979553, 'train': 0.27162161469459534, 'test loss': 1.3759491443634033, 'train_loss': 1.553152084350586}
+25 {'test': 0.4781879186630249, 'train': 0.3256756663322449, 'test loss': 1.4039705991744995, 'train_loss': 1.610917091369629}
+26 {'test': 0.3372483253479004, 'train': 0.27162161469459534, 'test loss': 1.350696325302124, 'train_loss': 1.5326287746429443}
+27 {'test': 0.44463086128234863, 'train': 0.29459458589553833, 'test loss': 1.4575352668762207, 'train_loss': 1.6315371990203857}
+28 {'test': 0.3372483253479004, 'train': 0.27162161469459534, 'test loss': 1.5231748819351196, 'train_loss': 1.6554676294326782}
+29 {'test': 0.4312080442905426, 'train': 0.29459458589553833, 'test loss': 1.4436489343643188, 'train_loss': 1.684116005897522}
+30 {'test': 0.5016778707504272, 'train': 0.3581081032752991, 'test loss': 1.3407403230667114, 'train_loss': 1.5650025606155396}
+31 {'test': 0.3372483253479004, 'train': 0.27162161469459534, 'test loss': 1.3479894399642944, 'train_loss': 1.5296049118041992}
+32 {'test': 0.5016778707504272, 'train': 0.3567567467689514, 'test loss': 1.361611247062683, 'train_loss': 1.560538649559021}
+33 {'test': 0.32382550835609436, 'train': 0.29054054617881775, 'test loss': 1.4546504020690918, 'train_loss': 1.5839567184448242}
+34 {'test': 0.3372483253479004, 'train': 0.27162161469459534, 'test loss': 1.3671718835830688, 'train_loss': 1.5422431230545044}
+35 {'test': 0.4748322069644928, 'train': 0.35540542006492615, 'test loss': 1.4413491487503052, 'train_loss': 1.6179062128067017}
+36 {'test': 0.4379194676876068, 'train': 0.3081081211566925, 'test loss': 1.4733308553695679, 'train_loss': 1.629827857017517}
+37 {'test': 0.28859061002731323, 'train': 0.24864864349365234, 'test loss': 1.4138952493667603, 'train_loss': 1.6017972230911255}
+38 {'test': 0.3372483253479004, 'train': 0.27162161469459534, 'test loss': 1.3883532285690308, 'train_loss': 1.547619342803955}
+39 {'test': 0.5, 'train': 0.3581081032752991, 'test loss': 1.41761314868927, 'train_loss': 1.626563549041748}
+Traceback (most recent call last):
+  File "classifier.py", line 218, in <module>
+    main(config)
+  File "classifier.py", line 200, in main
+    fig = plt.figure()
+NameError: name 'plt' is not defined

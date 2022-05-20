@@ -1,0 +1,9 @@
+K: 2
+c_hidden: 256
+c_in: 1
+c_out: 8
+dp_rate: 0.0
+dp_rate_linear: 0.5
+layer_name: ChebNet
+max_epochs: 500
+num_layers: 3

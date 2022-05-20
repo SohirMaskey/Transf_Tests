@@ -1,0 +1,697 @@
+Global seed set to 42
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/torch_geometric/deprecation.py:13: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+Global seed set to 42
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/callback_connector.py:90: LightningDeprecationWarning: Setting `Trainer(progress_bar_refresh_rate=0)` is deprecated in v1.5 and will be removed in v1.7. Please pass `pytorch_lightning.callbacks.progress.TQDMProgressBar` with `refresh_rate` directly to the Trainer's `callbacks` argument instead. Or, to disable the progress bar pass `enable_progress_bar = False` to the Trainer.
+  rank_zero_deprecation(
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/data_loading.py:116: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 28 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/utilities/data.py:59: UserWarning: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 10. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
+  warning_cache.warn(
+Global seed set to 42
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/data_loading.py:116: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 28 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/data_loading.py:412: UserWarning: The number of training samples (6) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+  rank_zero_warn(
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/utilities/data.py:59: UserWarning: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 1. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
+  warning_cache.warn(
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:901: LightningDeprecationWarning: `trainer.test(test_dataloaders)` is deprecated in v1.4 and will be removed in v1.6. Use `trainer.test(dataloaders)` instead.
+  rank_zero_deprecation(
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/data_loading.py:116: UserWarning: The dataloader, test_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 28 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:623: UserWarning: Checkpoint directory ../saved_models/GraphLevelChebNet/lightning_logs/version_12512/checkpoints exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Global seed set to 42
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+Global seed set to 42
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+Set SLURM handle signals.
+
+  | Name        | Type             | Params
+-------------------------------------------------
+0 | model       | GraphGNNModel    | 265 K 
+1 | loss_module | CrossEntropyLoss | 0     
+-------------------------------------------------
+265 K     Trainable params
+0         Non-trainable params
+265 K     Total params
+1.062     Total estimated model params size (MB)
+Global seed set to 42
+cuda:0
+0 {'test': 0.7041666507720947, 'train': 0.8134469985961914, 'test loss': 0.7029295563697815, 'train_loss': 0.5967701077461243}
+1 {'test': 0.9375, 'train': 0.9791666865348816, 'test loss': 0.1439528614282608, 'train_loss': 0.14570775628089905}
+2 {'test': 0.987500011920929, 'train': 0.9962121248245239, 'test loss': 0.10085270553827286, 'train_loss': 0.08490800112485886}
+3 {'test': 0.9458333253860474, 'train': 0.9895833134651184, 'test loss': 0.14551231265068054, 'train_loss': 0.10159596055746078}
+4 {'test': 0.9604166746139526, 'train': 0.9810606241226196, 'test loss': 0.07944553345441818, 'train_loss': 0.07710861414670944}
+5 {'test': 0.9770833253860474, 'train': 0.9905303120613098, 'test loss': 0.0787338986992836, 'train_loss': 0.04155993089079857}
+6 {'test': 0.9958333373069763, 'train': 0.9905303120613098, 'test loss': 0.03532513231039047, 'train_loss': 0.040150027722120285}
+7 {'test': 0.9979166388511658, 'train': 1.0, 'test loss': 0.06692059338092804, 'train_loss': 0.08260323852300644}
+8 {'test': 0.9958333373069763, 'train': 1.0, 'test loss': 0.15805035829544067, 'train_loss': 0.12503451108932495}
+9 {'test': 0.9979166388511658, 'train': 1.0, 'test loss': 0.17420539259910583, 'train_loss': 0.16948285698890686}
+10 {'test': 1.0, 'train': 1.0, 'test loss': 0.22755123674869537, 'train_loss': 0.22242094576358795}
+11 {'test': 0.9937499761581421, 'train': 1.0, 'test loss': 0.11769426614046097, 'train_loss': 0.11199788004159927}
+12 {'test': 0.9958333373069763, 'train': 1.0, 'test loss': 0.2553519606590271, 'train_loss': 0.2231992781162262}
+13 {'test': 0.9937499761581421, 'train': 1.0, 'test loss': 0.2862291634082794, 'train_loss': 0.285628080368042}
+14 {'test': 0.9979166388511658, 'train': 1.0, 'test loss': 0.17724379897117615, 'train_loss': 0.1582261025905609}
+15 {'test': 0.9729166626930237, 'train': 1.0, 'test loss': 0.27682802081108093, 'train_loss': 0.23043343424797058}
+16 {'test': 1.0, 'train': 1.0, 'test loss': 0.07656664401292801, 'train_loss': 0.06836798787117004}
+17 {'test': 0.9979166388511658, 'train': 1.0, 'test loss': 0.14407594501972198, 'train_loss': 0.14045263826847076}
+18 {'test': 0.9937499761581421, 'train': 0.9715909361839294, 'test loss': 0.3261447250843048, 'train_loss': 0.3451220691204071}
+19 {'test': 0.9708333611488342, 'train': 0.9990530014038086, 'test loss': 0.2586137652397156, 'train_loss': 0.24690917134284973}
+20 {'test': 1.0, 'train': 0.9990530014038086, 'test loss': 0.36728402972221375, 'train_loss': 0.3580668568611145}
+21 {'test': 0.925000011920929, 'train': 0.9195075631141663, 'test loss': 0.7355234622955322, 'train_loss': 0.7205616235733032}
+22 {'test': 0.9916666746139526, 'train': 0.9801136255264282, 'test loss': 0.4268858730792999, 'train_loss': 0.4372270405292511}
+23 {'test': 0.9750000238418579, 'train': 0.998106062412262, 'test loss': 0.3992701470851898, 'train_loss': 0.4044797122478485}
+24 {'test': 0.7333333492279053, 'train': 0.7575757503509521, 'test loss': 1.134342908859253, 'train_loss': 1.1315219402313232}
+25 {'test': 0.7458333373069763, 'train': 0.6912878751754761, 'test loss': 1.1967005729675293, 'train_loss': 1.2443214654922485}
+26 {'test': 0.9708333611488342, 'train': 0.9772727489471436, 'test loss': 0.33354514837265015, 'train_loss': 0.3249865174293518}
+Traceback (most recent call last):
+  File "classifier.py", line 218, in <module>
+    main(config)
+  File "classifier.py", line 189, in main
+    model, result = train_graph_classifier(model_name="ChebNet",
+  File "classifier.py", line 122, in train_graph_classifier
+    trainer.fit(model, graph_train_loader, graph_val_loader)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 737, in fit
+    self._call_and_handle_interrupt(
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 682, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 772, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1194, in _run
+    self._dispatch()
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1274, in _dispatch
+    self.training_type_plugin.start_training(self)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/training_type_plugin.py", line 202, in start_training
+    self._results = trainer.run_stage()
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1284, in run_stage
+    return self._run_train()
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1314, in _run_train
+    self.fit_loop.run()
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 145, in run
+    self.advance(*args, **kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/fit_loop.py", line 234, in advance
+    self.epoch_loop.run(data_fetcher)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 145, in run
+    self.advance(*args, **kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 193, in advance
+    batch_output = self.batch_loop.run(batch, batch_idx)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 145, in run
+    self.advance(*args, **kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(split_batch, optimizers, batch_idx)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/base.py", line 145, in run
+    self.advance(*args, **kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 215, in advance
+    result = self._run_optimization(
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 266, in _run_optimization
+    self._optimizer_step(optimizer, opt_idx, batch_idx, closure)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 378, in _optimizer_step
+    lightning_module.optimizer_step(
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/core/lightning.py", line 1652, in optimizer_step
+    optimizer.step(closure=optimizer_closure)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/core/optimizer.py", line 164, in step
+    trainer.accelerator.optimizer_step(self._optimizer, self._optimizer_idx, closure, **kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/accelerators/accelerator.py", line 336, in optimizer_step
+    self.precision_plugin.optimizer_step(model, optimizer, opt_idx, closure, **kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 163, in optimizer_step
+    optimizer.step(closure=closure, **kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/torch/optim/adamw.py", line 65, in step
+    loss = closure()
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/plugins/precision/precision_plugin.py", line 148, in _wrap_closure
+    closure_result = closure()
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 160, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 142, in closure
+    step_output = self._step_fn()
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 435, in _training_step
+    training_step_output = self.trainer.accelerator.training_step(step_kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/accelerators/accelerator.py", line 216, in training_step
+    return self.training_type_plugin.training_step(*step_kwargs.values())
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/training_type_plugin.py", line 213, in training_step
+    return self.model.training_step(*args, **kwargs)
+  File "classifier.py", line 85, in training_step
+    loss, acc = self.forward(batch, mode="train")
+  File "classifier.py", line 67, in forward
+    x = self.model(x, edge_index, batch_idx)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/math/maskey/Dokumente/Transf_Tests/src/models.py", line 96, in forward
+    x = self.GNN(x, edge_index)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/math/maskey/Dokumente/Transf_Tests/src/models.py", line 62, in forward
+    x = l(x, edge_index)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/torch_geometric/nn/conv/cheb_conv.py", line 144, in forward
+    Tx_1 = self.propagate(edge_index, x=x, norm=norm, size=None)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/torch_geometric/nn/conv/message_passing.py", line 269, in propagate
+    out = self.message(**msg_kwargs)
+  File "/home/math/maskey/anaconda3/envs/pyg_cuda102/lib/python3.8/site-packages/torch_geometric/nn/conv/cheb_conv.py", line 159, in message
+    return norm.view(-1, 1) * x_j
+RuntimeError: CUDA out of memory. Tried to allocate 3.36 GiB (GPU 0; 10.76 GiB total capacity; 3.63 GiB already allocated; 2.84 GiB free; 6.91 GiB reserved in total by PyTorch)
